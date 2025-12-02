@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yakshi Group - QR Poster</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef1f5;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      margin: 0;
+    }
+    .poster {
+      background: #ffffff;
+      width: 780px;
+      border-radius: 20px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.18);
+      overflow: hidden;
+    }
+    .header {
+      background: linear-gradient(135deg, #111827, #1f2937);
+      color: #fff;
+      padding: 32px 40px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 34px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .header p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #d1d5db;
+    }
+    .content {
+      padding: 40px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+    .qr-box {
+      padding: 20px;
+      border-radius: 18px;
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      text-align: center;
+    }
+    .qr-box img {
+      width: 280px;
+      height: 280px;
+      border-radius: 10px;
+    }
+    .scan-main {
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #111827;
+    }
+    .scan-sub {
+      font-size: 13px;
+      color: #6b7280;
+    }
+    .right {
+      flex: 1;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 10px;
+    }
+    .section-desc {
+      font-size: 14px;
+      color: #4b5563;
+      margin-bottom: 20px;
+    }
+    .social-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .social-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px;
+      border-radius: 12px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+    }
+    .icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .threads { background: #000; }
+    .insta {
+      background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf, #4f5bd5);
+    }
+    .fb { background: #1877f2; }
+    .social-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: #111827;
+    }
+    .social-sub {
+      font-size: 12px;
+      color: #6b7280;
+    }
+    .footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 1px dashed #e5e7eb;
+      font-size: 12px;
+      color: #6b7280;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .poster { border-radius: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="poster">
+
+  <div class="header">
+    <h1>Yakshi Group</h1>
+    <p>Official Social Media Connect • Scan the QR Code</p>
+  </div>
+
+  <div class="content">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+      <div class="qr-box">
+        <!-- 👉 IMPORTANT: QR image ka naam same rakho -->
+        <img src="yakshi_final_qr.png" alt="Yakshi Group QR Code">
+      </div>
+      <div class="scan-main">Scan to Connect</div>
+      <div class="scan-sub">Camera open karein • QR par focus karein • Links tap karein</div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+      <div class="section-title">Stay Connected with Yakshi Group</div>
+      <div class="section-desc">
+        Follow our official platforms for updates, announcements and more.
+      </div>
+
+      <div class="social-list">
+        
+        <div class="social-item">
+          <div class="icon threads">T</div>
+          <div>
+            <div class="social-name">Threads</div>
+            <div class="social-sub">@yakshigroupofficial</div>
+          </div>
+        </div>
+        
+        <div class="social-item insta">
+          <div class="icon insta">IG</div>
+          <div>
+            <div class="social-name">Instagram</div>
+            <div class="social-sub">@yakshigroupofficial</div>
+          </div>
+        </div>
