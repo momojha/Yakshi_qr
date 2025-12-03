@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yakshi Group - Social Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 16px;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(15, 23, 42, 0.96);
+      border-radius: 18px;
+      padding: 24px 22px 20px;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.7);
+      border: 1px solid rgba(148,163,184,0.3);
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #22d3ee, #818cf8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 22px;
+      color: #020617;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 0 0 4px;
+    }
+    p {
+      margin: 0 0 16px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px 0 6px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 11px 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+    }
+    .btn span.sub {
+      display: block;
+      font-size: 11px;
+      font-weight: 400;
+      opacity: 0.8;
+    }
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .fb {
+      background: linear-gradient(135deg, #1d4ed8, #1d4ed8);
+      border-color: rgba(191,219,254,0.5);
+    }
+    .threads {
+      background: linear-gradient(135deg, #020617, #020617);
+      border-color: rgba(148,163,184,0.7);
+    }
+    .insta {
+      background: linear-gradient(135deg, #f97316, #ec4899, #6366f1);
+      border-color: rgba(254,202,202,0.6);
+    }
+    .label {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    .icon-circle {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+    .foot {
+      margin-top: 10px;
+      font-size: 11px;
+      color: #6b7280;
+    }
+    .website {
+      margin-top: 6px;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+    .website a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="logo">YG</div>
+    <h1>Yakshi Group</h1>
+    <p>Choose your platform to connect with us.</p>
+
+    <div class="links">
+      <!-- Threads -->
+      <a class="btn threads" href="https://www.threads.com/@yakshigroupofficial" target="_blank" rel="noopener">
+        <div class="label">
+          Threads
+          <span class="sub">@yakshigroupofficial</span>
+        </div>
+        <div class="icon-circle">@</div>
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn insta" href="https://www.instagram.com/yakshigroupofficial?igsh=MTByOThnNjVsYmo4dA==" target="_blank" rel="noopener">
+        <div class="label">
+          Instagram
+          <span class="sub">@yakshigroupofficial</span>
+        </div>
+        <div class="icon-circle">IG</div>
+      </a>
+
+      <!-- Facebook -->
+      <a class="btn fb" href="https://www.facebook.com/profile.php?id=61577321913578&sfnsn=wa" target="_blank" rel="noopener">
+        <div class="label">
+          Facebook
+          <span class="sub">Yakshi Group Official</span>
+        </div>
+        <div class="icon-circle">f</div>
+      </a>
+    </div>
+
+    <div class="website">
+      Or visit: <a href="https://yakshigroup.com/" target="_blank" rel="noopener">yakshigroup.com</a>
+    </div>
+
+    <div class="foot">
+      Tip: Save this page to your favourites for quick access.
+    </div>
+  </div>
+
+</body>
+</html>
