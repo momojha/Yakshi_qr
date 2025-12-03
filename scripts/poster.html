@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Yakshi Group - Official QR Poster</title>
+  <title>Yakshi Group - QR Poster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -78,38 +80,6 @@
       color: #4b5563;
       margin-bottom: 20px;
     }
-    .social-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .social-item {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding: 12px;
-      border-radius: 12px;
-      background: #f9fafb;
-      border: 1px solid #e5e7eb;
-    }
-    .icon {
-      width: 38px;
-      height: 38px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-weight: 700;
-      font-size: 16px;
-    }
-    .threads { background: #000; }
-    .insta {
-      background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf, #4f5bd5);
-    }
-    .facebook {
-      background: #1877f2;
-    }
     .footer {
       text-align: center;
       padding: 15px;
@@ -128,14 +98,6 @@
       font-size: 14px;
       font-weight: 600;
     }
-    .social-item a {
-      color: #2563eb;
-      text-decoration: none;
-      font-size: 13px;
-    }
-    .social-item a:hover {
-      text-decoration: underline;
-    }
     @media print {
       body { background: #fff; padding: 0; }
       .poster { border-radius: 0; box-shadow: none; }
@@ -148,7 +110,7 @@
 
   <div class="header">
     <h1>Yakshi Group</h1>
-    <p>Scan the QR to visit our official website</p>
+    <p>Scan QR Code to Connect</p>
   </div>
 
   <div class="content">
@@ -156,62 +118,25 @@
     <!-- LEFT: QR -->
     <div class="left">
       <div class="qr-box">
-        <!-- Yaha naya website-only QR use ho raha hai -->
-        <img src="yakshi_social_qr.png" alt="Yakshi Group Website QR Code">
+        <!-- IMPORTANT: Final QR image here -->
+        <img src="yakshi_social_qr.png" alt="Yakshi Group QR Code">
       </div>
-      
-            
 
-     <a class="download-btn" href="yakshi_social_qr.png" download="yakshi_group_qr.png">
-  Download QR Code
-</a>
+      <a class="download-btn" 
+         href="yakshi_social_qr.png"
+         download="yakshi_group_qr.png">
+        Download QR Code
+      </a>
 
-
-      <div class="scan-main">Scan to Visit Website</div>
-      <div class="scan-sub">Camera open karein • QR par focus karein • yakshigroup.com khulega</div>
+      <div class="scan-main">Scan to Connect</div>
+      <div class="scan-sub">Camera se scan karein aur options choose karein</div>
     </div>
 
-    <!-- RIGHT: Social Links -->
+    <!-- RIGHT TEXT -->
     <div class="right">
-      <div class="section-title">Follow Yakshi Group Online</div>
+      <div class="section-title">Yakshi Group</div>
       <div class="section-desc">
-        Get latest updates, opportunities and announcements on our official social profiles.
-      </div>
-
-      <div class="social-list">
-        <!-- Threads -->
-        <div class="social-item">
-          <div class="icon threads">T</div>
-          <div>
-            <strong>Threads</strong><br>
-            <a href="https://www.threads.com/@yakshigroupofficial" target="_blank">
-              https://www.threads.com/@yakshigroupofficial
-            </a>
-          </div>
-        </div>
-
-        <!-- Facebook -->
-        <div class="social-item">
-          <div class="icon facebook">f</div>
-          <div>
-            <strong>Facebook</strong><br>
-            <a href="https://www.facebook.com/profile.php?id=61577321913578&sfnsn=wa" target="_blank">
-              facebook.com/profile.php?id=61577321913578
-            </a>
-          </div>
-        </div>
-
-        <!-- Instagram -->
-        <div class="social-item insta">
-          <div class="icon insta">IG</div>
-          <div>
-            <strong>Instagram</strong><br>
-            <a href="https://www.instagram.com/yakshigroupofficial?igsh=MTByOThnNjVsYmo4dA==" target="_blank">
-              @yakshigroupofficial
-            </a>
-          </div>
-        </div>
-
+        Social media presence • Latest updates • Instant access
       </div>
     </div>
 
